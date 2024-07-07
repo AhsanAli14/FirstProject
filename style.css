@@ -1,0 +1,976 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/** Header part**/
+.header-section{
+    height: 970px;
+    width: 1920px;
+    background-color: #FF603D;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.navbar{
+    max-width: 1310px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-div{
+    border-bottom: 0.8px solid #fc9179;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.signin-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.signin-section button{
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+    padding: 11px 24px;
+    background-color: #FF603D;
+    border-width: 0.2px;
+    border-color: white;
+}                           /** 2nd div of header **/
+.middle-header{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                           /** middle header div-1 **/
+.text-area{
+    height: 500px;
+    width: 50%;
+    color: white;
+}
+#calling-png{
+    position: absolute;
+    top: 345px;
+    left: 400px;
+}
+.text-area-opportunity p{
+    position: relative;
+    color: white;
+    font-size: 88px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+}
+.text-area-para{
+    margin-right: 170px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 300;
+}                           /** middle header div-2 **/
+.image-header{
+    height: 500px;
+    width: 50%;
+    position: relative;
+}
+#raster-img{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+#vector-on-raster{
+    position: absolute;
+    z-index: 2;
+    top: 290px;
+    right: 0px;
+}
+.buttons-header{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-onetwo{
+    font-size: 0.9rem;
+    padding: 14px 50px;
+    border-width: 0.2px;
+}
+#button-header-1{
+    background-color: black;
+    color: yellow;
+    border-color: black;
+}
+#button-header-2{
+    margin-left: 20px;
+    color: white;
+    background-color: #FF603D;
+    border-color: white;
+}                           /** Third div of header**/
+.logos-header{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}                           /** Section 2 Body section start **/
+                            /** Body div no. one **/
+.intro-div-1{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+#intro-text-1{
+    font-size: 15px;
+    font-weight: 500;
+    color:#425F66;
+}
+#intro-text-2{
+    font-size: 60px;
+    margin: 30px 570px 30px 0px;
+}
+#intro-text-3{
+    font-size: 20px;
+    margin-right: 650px;
+}                           /** Section 3 Card 1 & 2 **/
+.cards-section3-div1{
+    margin-top: 80px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: wheat; */
+}                           /** Card-1 of Section 3 **/
+.card01{
+    height: 580px;
+    width: 59%;
+    background-color: #160828;
+}                           /** Div 1 & 2 of card01 **/
+.contact-numbers{
+    display: flex;
+}                           /** Div-1 of card01 **/
+.num-dropdown{
+    height: 197px;
+    width: 389px;
+    background-color: white;
+    margin: 49px 0px 0px 49px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+#call-for-number{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#dropdown{
+    font-size: 1.2rem;
+    padding: 7px 130px 7px 20px;
+    border-radius: 3px;
+}
+.num-dropdown a{
+    font-size: 1.1rem;
+}
+#call-forwarding{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: darkgray;
+}                           /** Div-2 of card01 **/
+.numbers{
+    font-size: 1.2rem;
+    background-color: rgba( 255, 255, 255, 0.1);
+    color: wheat;
+    margin-bottom: 4px;
+    margin-left: 49px;
+    padding: 17px 57px 17px 18px;
+    border-radius: 2px;
+}                           /** Div-3 of card01**/
+.text-card01{
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: white;
+}
+#card01-text-line1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.text-card01 p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}                           /** Div-4 of card01 **/
+.arrow-box-card01-outer{
+    width: 33px;
+}
+.arrow-box-card01{
+    height: 26px;
+    width: 32px;
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-box-card01-outer a{
+    text-decoration: none;
+    color: black;
+}
+.arrow-box-card01:hover{
+    background-color: #425F66;
+    color: white;
+}                           /** Card-2 of Section 3 **/
+.card02{
+    height: 580px;
+    width: 40%;
+    background-color: #425F66;
+}                           /** Div 1 & 2 of card02 **/
+.coaching-div{
+    display: flex;
+}                           /** div1 of coaching div **/
+.coaching-note{
+    height: 207px;
+    width: 260px;
+    color: white;
+    background-color: #160828;
+    margin-top: 31px;
+    margin-left: 34px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.note-quote{
+    display: flex;
+}
+#coaching-note-line1{
+    font-size: 0.9rem;
+    margin-top: 21px 0px 0px 0px;
+    height: 0px;
+}
+#double-quote{
+    color: rgb(255, 233, 123);
+    font-size: 45px;
+    height: 0px;
+    margin: 5px 0px 0px 130px;
+}                          /* position absolute hony k baad bhi parent div k toor par body ko ly raha hy aysa q? */
+#coaching-note-line2{
+    margin-top: 0px;
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+.coaching-para p{
+    font-size: 0.9rem;
+    line-height: 18px;
+    margin: 20px 40px 0px 0px;
+    font-weight: 300;
+}                           /** div2 of coaching div **/
+.coaching-percent{
+    height: 105px;
+    width: 138px;
+    background-color: #D8FDF4;
+    border-radius: 5px;
+    margin: 102px 0px 0px 22px;
+}
+#coaching-percent-line-1{
+    font-size: 1.8rem;
+    margin: 22px 0px 0px 19px;
+}
+#coaching-percent-line-2{
+    font-size: 0.6rem;
+    margin: 4px 40px 0px 19px;
+}                           /** 2nd div of card02**/
+.text-card02{
+    color: white;
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#text-card02-line1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 110px 0px 0px 0px;
+}
+.text-card02 p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-right: 50px;
+}                           /** Div-3 of card02 **/
+.arrow-box-card02-outer{
+    width: 33px;
+}
+.arrow-box-card02{
+    height: 26px;
+    width: 32px;
+    background-color: #160828;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-box-card02-outer a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-box-card02:hover{
+    background-color: white;
+    color: black;
+}                           /** Section 3 Card 3 & 4 **/
+.cards-section3-div2{
+    margin-top: 15px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+}                           /** Card03 of Section 3 **/
+.card03{
+    height: 580px;
+    width: 40%;
+    background-color: #E0ECDE;
+    padding-left: 34px;
+}                           /** Div-1 of card03 **/
+.person-repo{
+    margin: 60px 0px 0px 0px;
+    display: flex;
+}
+#person-repo-line1{
+    color: grey;
+    font-size: 0.85rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+#person-repo-line2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3px 0px 0px 15px;
+}                           /** Div-2 of card03 **/
+.graph-card03{
+    height: 112px;
+    width: 346px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.graph-card03 img{
+    margin-top: 12px;
+    margin-left: 5px;
+}                           /** Div-3 of card03 **/
+.text-div-card03{
+    margin-right: 24px;
+    margin-top: 60px;
+}
+#text-div-card03-line1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.text-div-card03 p{
+    font-weight: 300;
+    font-size: 1.1rem;
+}                           /** Div-4 of card03 **/
+.arrow-box-card03{
+    height: 26px;
+    width: 32px;
+    background-color: #160828;
+    margin-top: 70px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-box-card03-outer a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-box-card03:hover{
+    background-color: white;
+    color: black;
+}                               /** Card04 of Section 3 **/
+.card04{
+    height: 580px;
+    width: 59%;                     /** cards gap issue **/
+    background-color: #F4FBF3;
+}                               /** Div-1 of card04 **/
+.card04-random-detail{
+    height: 240px;
+    margin-left: 220px;
+    margin-top: 40px;
+    border: #425F66 2px solid;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}                               /** Div-2 of card04 **/
+.text-div-card04{
+    margin: 70px 80px 0px 30px;
+}
+#text-div-card04-line1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.text-div-card04 p{
+    font-weight: 300;
+    font-size: 1.1rem;
+}                               /** Div-3 arrowBox of card04 **/
+.arrow-box-card04{
+    height: 26px;
+    width: 32px;
+    background-color: #160828;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-box-card04-outer a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-box-card04:hover{
+    background-color: white;
+    color: black;
+}                           /** Section-4 start here!! after cards section **/
+.section04-div{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 722px;
+    margin-top: 120px;
+    display: flex;
+}
+.section04-div1{
+    height: 722px;
+    width: 50%;
+}
+#section04-div1-para1{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 100px;
+}
+#section04-div1-para2{
+    font-size: 4rem;
+    margin: 40px 150px 0px 0px;
+}
+#sectoin04-div1-para3{
+    font-size: 1.2rem;
+    margin: 40px 145px 0px 0px;
+}
+.section04-div1-para4{
+    margin-top: 80px;
+    max-width: 230px;
+    /* margin-right: 442px; */
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid black;
+    border-width: 1.8px;
+}
+.section04-div1-para4 p{
+    margin: 0px;
+    font-weight: 500;
+}
+.section04-arrow-box{
+    height: 14px;
+    width: 24px;
+    background-color: #160828;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section04-arrow-box-outerdiv a{
+    text-decoration: none;
+    color: white;
+}
+.section04-arrow-box:hover{
+    background-color: white;
+    color: black;
+}                           /** Section04 div 2 **/
+.section04-div2{
+    height: 722px;
+    width: 50%;
+    background-color: #F4DFFA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4-ContactBox{
+    height: 91px;
+    width: 532px;
+    background-color: white;
+    border-radius: 5px; 
+    margin-bottom: 9px;
+    padding: 0px;
+}
+.section-4-ContactBox p{
+    margin: 0px;
+}
+.section04-div2-contact1{
+    margin-top: 197px;
+}
+#section04-div2-contact-name{
+    margin-left: 25px;
+    padding-top: 18px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+#section04-div2-contact{
+    color: rgb(170, 170, 170);
+    margin-left: 25px;
+    font-size: 1.3rem;
+}
+.section04-div2-button{
+    height: 76px;
+    width: 558px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #50F6CF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section04-div2-button:active{
+    transform: scale(0.98);
+}                           /** Section-5 start here!! **/
+.section05-div{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+}                           /** Div-1 of section-5 **/
+.section05-div1{
+    height: 722px;
+    width: 50%;
+    background-color: #425F66;
+}                           /** Div-2 of section-5 **/
+.section05-div2{
+    height: 722px;
+    width: 50%;
+    padding-left: 127px;
+}
+#section05-div2-para1{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 100px;
+}
+#section05-div2-para2{
+    font-size: 4rem;
+    margin: 40px 80px 0px 0px;
+}
+#sectoin05-div2-para3{
+    font-size: 1.2rem;
+    margin: 40px 100px 0px 0px;
+}
+.section05-div2-para4{
+    margin-top: 80px;
+    max-width: 280px;
+    /* margin-right: 330px; */
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid black;
+    border-width: 1.8px;
+}
+.section05-div2-para4 p{
+    margin: 0px;
+    font-weight: 500;
+}
+.section05-arrow-box{
+    height: 14px;
+    width: 24px;
+    background-color: #160828;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section05-arrow-box-outerdiv a{
+    text-decoration: none;
+    color: white;
+}
+.section05-arrow-box:hover{
+    background-color: white;
+    color: black;
+}                           /** Section06 start here!! **/
+.section06-div{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 144px;
+    display: flex;
+}
+.section06-div-dimension{
+    height: 490px;
+    width: 50%;
+}                           /** Div-1 of section06-div1 **/
+.crunchbase{
+    height: 40px;
+    width: 180px;
+    color: white;
+    font-weight: 400;
+    background-color: #160828;
+    margin: 12px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-20deg);
+}
+.crunchbase p{
+    transform: skew(20deg);
+}                           /** div-2 of section06-div1 **/
+.section06-para{
+    margin: 60px 80px 0px 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+.section06-person-detail{
+    display: flex;
+    margin: 100px 0px 0px 10px;
+}
+.section06-person-name-resig p{
+    margin: 10px 0px 0px 20px;
+}                           /** Div-2 of section06 **/
+.thunder-line{
+    font-size: 94px;
+    margin-top: 45px;
+    display: flex;
+}
+.connections p{
+    margin: 0px 0px 0px 130px;
+}
+.thunder-icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #FCFF70;
+    margin: 15px 0px 0px 40px;
+}
+.section6-div2-middle-line{
+    height: 3px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(241, 243, 238);
+    margin-top: 60px;
+}
+.productivity p{
+    margin: 0px 0px 0px 130px;
+}                           /** Section07 start here!! **/
+.section07-div{
+    height: 794px;
+    margin-top: 210px;
+    background-color: #425F66;
+}
+.section07-subdiv{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    /* background-color: #fc9179; */
+}                           /** div-1 of section07-subdiv **/
+.section07-subdiv-div1{
+    width: 50%;
+    height: 794px;
+    color: white;
+}
+#section07-subdiv1-para1{
+    font-size: 4rem;
+    margin: 180px 150px 0px 0px;
+}
+#sectoin07-subdiv1-para2{
+    font-size: 1.2rem;
+    margin: 40px 145px 0px 0px;
+}
+.section07-subdiv1-para3{
+    margin-top: 80px;
+    max-width: 255px;
+    /* margin-right: 400px; */
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid white;
+    border-width: 1.8px;
+}
+.section07-subdiv1-para3 p{
+    margin: 0px;
+    font-weight: 500;
+}
+.section07-arrow-box{
+    height: 14px;
+    width: 24px;
+    background-color: #FCFF70;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section07-arrow-box-outerdiv a{
+    text-decoration: none;
+    color: black;
+}
+.section07-arrow-box:hover{
+    background-color: white;
+    color: black;
+}                           /** div-2 of section07-subdiv **/
+.section07-subdiv-div2{
+    width: 50%;
+    height: 794px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parallelogram{
+    height: 120px;
+    width: 400px;
+    transform: skew(-40deg);
+    margin-left: 50px;
+}
+.parallelogram1{
+    background-color: #FCFF70;
+}
+.parallelogram2{
+    background-color: #F4DFFA;
+    margin-left: 290px;
+}
+.parallelogram3{
+    background-color: #50F6CF;
+}
+.parallelogram4{
+    background-color: #D7FDED;
+    margin-left: 290px;
+}
+.parallelogram5{
+    background-color: #E268EB;
+}                           /** Section-8 start here!! **/
+.section08-div{
+    margin-top: 354px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}                           /** div-1 of section-8 **/
+.section08-div1{
+    height: 722px;
+    width: 50%;
+    background-color: #F4FBF3;
+}                           /** div-2 of section-8 **/
+.section08-div2{
+    height: 722px;
+    width: 50%;
+    padding-left: 127px;
+}
+#section08-div2-para1{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 100px;
+}
+#section08-div2-para2{
+    font-size: 4rem;
+    margin: 40px 80px 0px 0px;
+}
+#sectoin08-div2-para3{
+    font-size: 1.2rem;
+    margin: 40px 145px 0px 0px;
+}
+.section08-div2-para4{
+    margin-top: 80px;
+    max-width: 225px;
+    /* margin-right: 380px; */
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid black;
+    border-width: 1.8px;
+}
+.section08-div2-para4 p{
+    margin: 0px;
+    font-weight: 500;
+}
+.section08-arrow-box{
+    height: 14px;
+    width: 24px;
+    background-color: #160828;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section08-arrow-box-outerdiv a{
+    text-decoration: none;
+    color: white;
+}
+.section08-arrow-box:hover{
+    background-color: white;
+    color: black;
+}                           /** Section-9 start here!! **/
+.section09-div{
+    height: 640px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.section09-subdiv{
+    height: 640px;
+    width: 1160px;
+    background-color: #160828;
+    transform: skew(-20deg);
+}
+.textarea-section09{
+    display: flex;
+    color: white;
+    margin-top: 88px;
+    flex-direction: column;
+    align-items: center;
+    transform: skew(20deg);
+}
+.textarea-section09 p{
+    margin: 0px;
+}
+#section09-subdiv-para1{
+    font-size: 3rem;
+    margin-top: 45px;
+}
+#section09-subdiv-para2{
+    font-size: 3.6rem;
+    margin-top: 30px;
+}
+#sectoin09-subdiv-para3{
+    font-size: 1.2rem;
+    margin-top: 45px;
+    max-width: 650px;
+    text-align: center;
+}
+.section09-subdiv-para4{
+    margin-top: 45px;
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid white;
+    border-width: 1.8px;
+}
+.section09-subdiv-para4 p{
+    margin: 0px;
+    font-weight: 500;
+}
+.section09-arrow-box{
+    height: 14px;
+    width: 24px;
+    background-color: #FCFF70;
+    margin-left: 30px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section09-arrow-box-outerdiv a{
+    text-decoration: none;
+    color: black;
+}
+.section09-arrow-box:hover{
+    background-color: white;
+    color: black;
+}                           /** Footer-section start here **/
+
+.sectionfootermain{
+    height: 1085px;
+    background-color: #160828;
+    margin-top: 153px;
+    color: white;
+}                           /** Upper-div of footer section **/
+.sectionfooter-upper{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionfooter-divUpper{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionfooter-divUpper ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 36px;
+}
+.footer-upper-div1{
+    margin-top: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-upper-div2{
+    margin-top: 275px;
+}
+.footer-upper-div3{
+    margin-top: 275px;
+}
+.footer-upper-div4{
+    margin-top: 275px;
+}                           /** Footer middle line **/
+.footer-middle-line{
+    height: 1px;
+    background-color: rgba( 255, 255, 255, 0.1);
+    margin-top: 180px;
+}                          /** Lower-div of footer section **/
+.sectionfooter-lower{
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-lower-div1{
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+.privacy-term-div{
+    display: flex;
+}
+.privacy-term-div p{
+    margin-right: 30px;
+}
+.footer-lower-div2 p{
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 55px;
+}
